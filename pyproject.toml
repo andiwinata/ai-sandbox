@@ -9,7 +9,16 @@ readme = "README.md"
 python = "^3.10"
 bertopic = "^0.16.0"
 datasets = "^2.19.0"
+torchaudio = {version = "^2.2.2+cu118", source = "pytorch-gpu"}
+torch = {version = "^2.2.2+cu118", source = "pytorch-gpu"}
+torchvision = {version = "^0.17.2+cu118", source = "pytorch-gpu"}
+numpy = "1.22.4"
 
+
+[[tool.poetry.source]]
+name = "pytorch-gpu"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
 
 [build-system]
 requires = ["poetry-core"]
