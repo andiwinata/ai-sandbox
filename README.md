@@ -12,3 +12,10 @@ GIT GUI: `source bert-sandbox/Scripts/activate`
 Mac: `source bert-sandbox/bin/activate`
 
 `deactivate` to exit
+
+## Setup history
+
+Make sure to install torch with CUDA support
+* Was following https://github.com/orgs/python-poetry/discussions/8731
+
+and also make sure CUDA is installed
