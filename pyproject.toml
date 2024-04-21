@@ -13,6 +13,7 @@ torchaudio = {version = "^2.2.2+cu118", source = "pytorch-gpu"}
 torch = {version = "^2.2.2+cu118", source = "pytorch-gpu"}
 torchvision = {version = "^0.17.2+cu118", source = "pytorch-gpu"}
 numpy = "1.22.4"
+matplotlib = "^3.8.4"
 
 
 [[tool.poetry.source]]
